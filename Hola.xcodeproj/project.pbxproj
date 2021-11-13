@@ -14,6 +14,7 @@
 		4974C116273FBF2D005CAF4E /* Programmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4974C115273FBF2D005CAF4E /* Programmer.swift */; };
 		4974C11A273FC026005CAF4E /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4974C119273FC026005CAF4E /* RowView.swift */; };
 		4974C11D273FC2FD005CAF4E /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4974C11C273FC2FD005CAF4E /* ListView.swift */; };
+		4974C11F273FDBAA005CAF4E /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4974C11E273FDBAA005CAF4E /* ListDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4974C115273FBF2D005CAF4E /* Programmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmer.swift; sourceTree = "<group>"; };
 		4974C119273FC026005CAF4E /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		4974C11C273FC2FD005CAF4E /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		4974C11E273FDBAA005CAF4E /* ListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				4974C119273FC026005CAF4E /* RowView.swift */,
 				4974C11C273FC2FD005CAF4E /* ListView.swift */,
+				4974C11E273FDBAA005CAF4E /* ListDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				4974C0DE273FA8BD005CAF4E /* ContentView.swift in Sources */,
 				4974C116273FBF2D005CAF4E /* Programmer.swift in Sources */,
 				4974C11D273FC2FD005CAF4E /* ListView.swift in Sources */,
+				4974C11F273FDBAA005CAF4E /* ListDetailView.swift in Sources */,
 				4974C0DC273FA8BD005CAF4E /* HolaApp.swift in Sources */,
 				4974C11A273FC026005CAF4E /* RowView.swift in Sources */,
 			);

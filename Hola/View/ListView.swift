@@ -17,8 +17,12 @@ struct ListView: View {
     var body: some View {
         NavigationView{
         List(programmers, id: \.id){
-                programmer in RowView(programmer: programmer)
+                programmer in
+            NavigationLink(
+                destination: ListDetailView(programmer: programmer)){
+                RowView(programmer: programmer)
                 }
+        }
         .navigationTitle("Programadores")
         }
     }
